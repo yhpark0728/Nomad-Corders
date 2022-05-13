@@ -1,15 +1,21 @@
-const h2 = document.querySelector('h2');
+const h1 = document.querySelector('div.hello:first-child h1');
 
 function handlerTitleClick() {
-  const currentColor = h2.style.color;
-  let newColor;
-  if (currentColor === 'blue') {
-    newColor = 'tomato';
+  const clickedClass = 'clicked';
+  if (h1.className === clickedClass) {
+    h1.className = '';
   } else {
-    newColor = 'blue';
+    h1.className = clickedClass;
   }
-  h2.style.color = newColor;
+  //   const currentColor = h2.style.color;
+  //   let newColor;
+  //   if (currentColor === 'blue') {
+  //     newColor = 'tomato';
+  //   } else {
+  //     newColor = 'blue';
+  //   }
+  //   h2.style.color = newColor;
 }
 
 //h2.style.color = 'blue';
-h2.addEventListener('click', handlerTitleClick);
+h1.addEventListener('click', handlerTitleClick);

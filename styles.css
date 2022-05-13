@@ -6,6 +6,6 @@ body {
     color: cornflowerblue;
   }
 
-  .active{
+  .clicked{
     color: tomato;
   }
