@@ -13,5 +13,6 @@ function handlerChangeBackGroundColor() {
   console.log(window.innerWidth);
 }
 
+document.getElementsByClassName('hello');
 getBackground.style.background = colors[1];
 window.addEventListener('resize', handlerChangeBackGroundColor);

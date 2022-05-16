@@ -45,3 +45,5 @@ window.addEventListener(
   'contextmenu',
   superEventHandler.handlerRightMouseClick
 );
+
+document.getElement;
