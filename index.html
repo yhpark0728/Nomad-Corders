@@ -9,12 +9,26 @@
 </head>
 
 <body>
-    <form class="hidden" id="login-form">
+    <!-- <form class="hidden" id="login-form">
         <input required maxlength="15" type="text" placeholder="What is your name?" />
         <input type="submit" value="Log In" />
     </form>
     <h1 class="hidden" id="greeting" ></h1>
-    <script src="loginApp2.js"></script>
+    <script src="loginApp2.js"></script> -->
+    <form id="resultForm">
+        <h1>Random Number Game</h1>
+        <h3>
+            Generate a numbe between 0 and<input id="numberRange" type="number" min="0">
+        </h3>
+        Guess the number:
+        <input id="numberGuessed" type="number" min="0">
+        <button id="playButton">Play!</button>
+        <div id="gameResult" class="hidden">
+            <div class="numberChosen"></div>
+            <div class="resultWinLost"></div>
+        </div>
+    </form>
+    <script src="quiz5.js"></script>
 </body>
 
 </html>
