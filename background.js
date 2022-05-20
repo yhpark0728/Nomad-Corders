@@ -17,6 +17,7 @@ const colors = [
   '#ffa801',
   '#ffd32a',
   '#ff3f34',
+  '#efedac',
 ];
 
 const backGroundColor = document.querySelector('body');
